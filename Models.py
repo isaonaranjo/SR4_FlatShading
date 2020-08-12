@@ -422,5 +422,5 @@ class Render(object):
 
 r = Render()
 # r.loadModel('./models/chicken.obj', (378,189), (378,378) )
-r.loadModel('./models/face.obj', translate=(550, 50, 0), scale = (36, 36, 100) )
+r.loadModel('./models/chicken.obj', translate=(700, 300, 200), scale = (300, 300, 350) )
 r.glFinish('output.bmp')
